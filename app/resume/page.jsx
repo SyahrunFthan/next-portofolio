@@ -260,7 +260,7 @@ const Resume = () => {
                   <p className="text-white/60">
                     {about.description.split("\n\n").map((paragraf, index) => {
                       return (
-                        <span>
+                        <span key={index}>
                           {paragraf}
                           <br />
                           <br />
