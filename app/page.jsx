@@ -25,6 +25,8 @@ const Home = () => {
                 className="uppercase flex items-center gap-3 border px-7 py-3 text-xl transition-all duration-500 font-semibold rounded-full border-accent text-accent hover:bg-accent hover:text-primary"
                 href={"/assets/MyCV.pdf"}
                 target="_blank"
+                download
+                rel="noopener noreferrer"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
