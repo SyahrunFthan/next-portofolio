@@ -23,7 +23,7 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link
                 className="uppercase flex items-center gap-3 border px-7 py-3 text-xl transition-all duration-500 font-semibold rounded-full border-accent text-accent hover:bg-accent hover:text-primary"
-                href={"/assets/MyCv.pdf"}
+                href={"/assets/MyCV.pdf"}
                 target="_blank"
               >
                 <span>Download CV</span>
