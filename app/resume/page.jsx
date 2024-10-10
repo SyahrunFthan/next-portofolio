@@ -257,17 +257,7 @@ const Resume = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[20px] text-left">
                   <h3 className="text-4xl font-bold">{about.title}</h3>
-                  <p className="text-white/60">
-                    {about.description.split("\n\n").map((paragraf, index) => {
-                      return (
-                        <span key={index}>
-                          {paragraf}
-                          <br />
-                          <br />
-                        </span>
-                      );
-                    })}
-                  </p>
+                  <p className="text-white/60">{about.description}</p>
                 </div>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 xl:mx-0 gap-y-4 max-w-[620px]">
                   {about.info.map((item, index) => {

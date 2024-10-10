@@ -154,7 +154,7 @@ const Contact = () => {
               className="flex rounded-xl flex-col gap-6 p-10 bg-[#272729] border hover:border-accent transition-all duration-500"
             >
               <h3 className="text-2xl text-accent">
-                Let's work together<span className="text-white">.</span>
+                Let&apos;s work together<span className="text-white">.</span>
               </h3>
               <p className="max-w-[260px] xl:max-w-[460px] text-white/60">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
